@@ -10,6 +10,7 @@ FROM rocker/geospatial:latest
 RUN apt-get update && apt-get -y install cron
 RUN apt-get update && apt-get -y install jags
 RUN apt-get update && apt-get -y install libgd-dev
+RUN apt-get update && apt-get -y install libnetcdf-dev
 
 #USER ${NB_USER}
 
