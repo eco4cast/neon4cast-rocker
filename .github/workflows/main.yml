@@ -28,6 +28,6 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: eco4cast/rocker-binder:binder
+          tags: eco4cast/rocker-binder:latest
           context: "{{defaultContext}}:binder"
           
